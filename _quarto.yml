@@ -16,9 +16,7 @@ format:
     orientation: columns
     nav-buttons: [github]
     github: https://github.com/Prosasmed/usaer_dashboard2.git
-    theme:
-      - sketchy
-      - style/olympicdash.scss  # Verifica que esta ruta sea correcta, debe estar en docs/style/
+    theme: cosmo  # Cambia 'sketchy' por 'cosmo' o 'simple'
     logo: images/logo2.png
 
 resources:
