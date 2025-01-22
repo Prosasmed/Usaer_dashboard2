@@ -12,12 +12,13 @@ website:
 output-dir: docs
 
 format:
-  html:
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+    github: https://github.com/Prosasmed/usaer_dashboard2.git
     theme:
       - sketchy
       - style/olympicdash.scss
-    css: [style/olympicdash.scss]
-    toc: false
     logo: images/logo2.png
 
 resources:
