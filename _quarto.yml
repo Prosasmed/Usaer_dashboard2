@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - text: "Olympics Dashboard"
-        href: olympicdash-r-1.qmd
+        href: index.html  # Cambié la ruta al archivo index.html
 
 output-dir: docs
 
@@ -18,11 +18,12 @@ format:
     github: https://github.com/Prosasmed/usaer_dashboard2.git
     theme:
       - sketchy
-      - style/olympicdash.scss
+      - style/olympicdash.scss  # Verifica que esta ruta sea correcta, debe estar en docs/style/
     logo: images/logo2.png
 
 resources:
   - style/**   # Incluir todos los archivos dentro de la carpeta style
   - images/**  # Incluir todos los archivos dentro de la carpeta images
+
 
 
