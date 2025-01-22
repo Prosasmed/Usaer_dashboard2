@@ -1,3 +1,26 @@
-project: 
+project:
   type: default
-  output-dir: docs
+
+website:
+  title: "Olympic Games Dashboard"
+  navbar:
+    left:
+      - text: "Olympics Dashboard"
+        href: olympicdash-r-1.qmd
+
+output-dir: docs
+
+format:
+  html:
+    theme:
+      - sketchy
+      - style/olympicdash.scss
+    css: [style/olympicdash.scss]
+    toc: false
+    logo: images/logo2.png
+
+resources:
+  - style/**   # Incluir todos los archivos dentro de la carpeta style
+  - images/**  # Incluir todos los archivos dentro de la carpeta images
+
+
