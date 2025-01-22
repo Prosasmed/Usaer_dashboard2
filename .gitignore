@@ -4,5 +4,6 @@
 .Ruserdata
 *.key
 *.html
+!docs/index.html
 *_files/
 /.quarto/
